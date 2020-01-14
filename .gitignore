@@ -6,7 +6,11 @@ _ext
 maskrcnn_benchmark.egg-info/
 build/
 dist/
-
+**/.vscode
+cocoapi/
+./data
+maskrcnn-benchmark
+data
 # pytorch/python/numpy formats
 *.pth
 *.pkl

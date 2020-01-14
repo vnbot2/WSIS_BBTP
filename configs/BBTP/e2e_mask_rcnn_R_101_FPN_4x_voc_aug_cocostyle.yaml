@@ -36,8 +36,8 @@ MODEL:
     POSTPROCESS_MASKS_THRESHOLD: 0.5
   MASK_ON: True
 DATASETS:
-  TRAIN: ("voc_2012_aug_train_cocostyle", )
-  TEST: ("voc_2012_val_cocostyle",)
+  TRAIN: ("voc_2012_train", )
+  TEST: ("voc_2012_val",)
 DATALOADER:
   SIZE_DIVISIBILITY: 32
 SOLVER:

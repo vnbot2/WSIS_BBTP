@@ -74,8 +74,8 @@ class DatasetCatalog(object):
             "ann_file": "voc/VOC2007/Annotations/pascal_test2007.json"
         },
         "voc_2012_train": {
-            "data_dir": "",
-            "split": ""
+            "data_dir": "voc/VOC2012/JPEGImages",
+            "split": "train"
         },
         "voc_2012_aug_train_cocostyle": {
             "img_dir": "VOCSBD/VOC2012/JPEGImages",
